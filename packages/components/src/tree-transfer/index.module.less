@@ -1,0 +1,38 @@
+.transfer {
+  ::-webkit-scrollbar {
+    border-radius: 4px;
+    height: 6px;
+    width: 6px;
+  }
+  .rowSpaceBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12px;
+    .rightTips {
+      font-size: var(--font-1, 12px);
+      color: var(--gray-9, #7A8591);
+    }
+  }
+  :global(.ant-transfer-list-body-customize-wrapper) {
+    flex: 1;
+    padding-top: 12px;
+    overflow: auto;
+  }
+
+  :global(.ant-tree-treenode) {
+    padding-top: 4px;
+  }
+
+  :global(.ant-tree-draggable-icon) {
+    cursor: grab;
+  }
+
+  :global(.ant-tree-draggable-icon + .ant-tree-switcher) {
+    display: none;
+  }
+
+  .search {
+    padding: 0 12px 12px;
+  }
+}
