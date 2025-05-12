@@ -1,0 +1,19 @@
+.table {
+  :global(.ant-table-selection-column) {
+    text-align: right;
+  }
+
+  .drag-handle::before {
+    display: none;
+  }
+
+  .row-selection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .child {
+      margin-bottom: -2px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": false,
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "moduleResolution": "bundler",
+    "paths": {
+      "@vainjs/rc": [
+        "../packages/components/src"
+      ],
+    }
+  },
+  "include": [
+    "stories",
+  ]
+}

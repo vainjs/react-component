@@ -1,0 +1,16 @@
+{
+  "references": [
+    {
+      "path": "components"
+    },
+    {
+      "path": "eslint-config"
+    },
+    {
+      "path": "docs"
+    }
+  ],
+  "include": [
+    "**/*.{ts,tsx}"
+  ]
+}

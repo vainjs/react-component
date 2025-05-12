@@ -1,0 +1,9 @@
+html,
+body,
+#storybook-root {
+  height: 100%;
+}
+
+.sb-story > div {
+  height: 300px;
+}
